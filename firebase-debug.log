@@ -1,0 +1,84 @@
+[debug] [2023-01-24T14:17:41.752Z] ----------------------------------------------------------------------
+[debug] [2023-01-24T14:17:41.756Z] Command:       F:\node js\node.exe C:\Users\city\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-01-24T14:17:41.757Z] CLI Version:   11.21.0
+[debug] [2023-01-24T14:17:41.757Z] Platform:      win32
+[debug] [2023-01-24T14:17:41.757Z] Node Version:  v16.13.0
+[debug] [2023-01-24T14:17:41.759Z] Time:          Tue Jan 24 2023 20:17:41 GMT+0600 (Bangladesh Standard Time)
+[debug] [2023-01-24T14:17:41.759Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-01-24T14:17:41.778Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-24T14:17:41.779Z] > authorizing via signed-in user (sariothossain1011@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\city\Desktop\BusinessTabileProject\client
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-01-24T14:19:04.891Z] > refreshing access token with scopes: []
+[debug] [2023-01-24T14:19:04.897Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-01-24T14:19:04.898Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-01-24T14:19:06.063Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-01-24T14:19:06.064Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-01-24T14:19:06.826Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-01-24T14:19:07.775Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-01-24T14:19:07.776Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project business-tabile (business-tabile) 
+[info] 
+=== Database Setup
+[info] i  database: ensuring required API firebasedatabase.googleapis.com is enabled... 
+[debug] [2023-01-24T14:19:40.024Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/business-tabile/services/firebasedatabase.googleapis.com [none]
+[debug] [2023-01-24T14:19:40.024Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/business-tabile/services/firebasedatabase.googleapis.com x-goog-quota-user=projects/business-tabile
+[debug] [2023-01-24T14:19:42.335Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/business-tabile/services/firebasedatabase.googleapis.com 200
+[debug] [2023-01-24T14:19:42.336Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/business-tabile/services/firebasedatabase.googleapis.com [omitted]
+[warn] !  database: missing required API firebasedatabase.googleapis.com. Enabling now... 
+[debug] [2023-01-24T14:19:42.338Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/business-tabile/services/firebasedatabase.googleapis.com:enable [none]
+[debug] [2023-01-24T14:19:42.338Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/business-tabile/services/firebasedatabase.googleapis.com:enable x-goog-quota-user=projects/business-tabile
+[debug] [2023-01-24T14:19:44.360Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/business-tabile/services/firebasedatabase.googleapis.com:enable 200
+[debug] [2023-01-24T14:19:44.361Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/business-tabile/services/firebasedatabase.googleapis.com:enable [omitted]
+[debug] [2023-01-24T14:19:54.376Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/business-tabile/services/firebasedatabase.googleapis.com [none]
+[debug] [2023-01-24T14:19:54.377Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/business-tabile/services/firebasedatabase.googleapis.com x-goog-quota-user=projects/business-tabile
+[debug] [2023-01-24T14:19:56.424Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/business-tabile/services/firebasedatabase.googleapis.com 200
+[debug] [2023-01-24T14:19:56.425Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/business-tabile/services/firebasedatabase.googleapis.com [omitted]
+[info] +  database: required API firebasedatabase.googleapis.com is enabled 
+[info] 
+[debug] [2023-01-24T14:19:56.437Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/business-tabile [none]
+[debug] [2023-01-24T14:19:57.138Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/business-tabile 200
+[debug] [2023-01-24T14:19:57.139Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/business-tabile {"projectId":"business-tabile","projectNumber":"811078534407","displayName":"business-tabile","name":"projects/business-tabile","resources":{"hostingSite":"business-tabile"},"state":"ACTIVE","etag":"1_ee699798-2305-42e2-abae-6c63f68d509e"}
+[debug] [2023-01-24T14:20:43.959Z] >>> [apiv2][query] POST https://firebasedatabase.googleapis.com/v1beta/projects/business-tabile/locations/asia-southeast1/instances databaseId=business-tabile-default-rtdb&validateOnly=true
+[debug] [2023-01-24T14:20:43.960Z] >>> [apiv2][body] POST https://firebasedatabase.googleapis.com/v1beta/projects/business-tabile/locations/asia-southeast1/instances {"type":"default_database"}
+[debug] [2023-01-24T14:20:45.699Z] <<< [apiv2][status] POST https://firebasedatabase.googleapis.com/v1beta/projects/business-tabile/locations/asia-southeast1/instances 200
+[debug] [2023-01-24T14:20:45.699Z] <<< [apiv2][body] POST https://firebasedatabase.googleapis.com/v1beta/projects/business-tabile/locations/asia-southeast1/instances {"name":"projects/811078534407/locations/asia-southeast1/instances/business-tabile-default-rtdb","project":"projects/811078534407","databaseUrl":"https://business-tabile-default-rtdb.asia-southeast1.firebasedatabase.app","type":"DEFAULT_DATABASE","state":"ACTIVE"}
+[debug] [2023-01-24T14:20:45.702Z] >>> [apiv2][query] POST https://firebasedatabase.googleapis.com/v1beta/projects/business-tabile/locations/asia-southeast1/instances databaseId=business-tabile-default-rtdb
+[debug] [2023-01-24T14:20:45.702Z] >>> [apiv2][body] POST https://firebasedatabase.googleapis.com/v1beta/projects/business-tabile/locations/asia-southeast1/instances {"type":"default_database"}
+[debug] [2023-01-24T14:20:47.322Z] <<< [apiv2][status] POST https://firebasedatabase.googleapis.com/v1beta/projects/business-tabile/locations/asia-southeast1/instances 200
+[debug] [2023-01-24T14:20:47.323Z] <<< [apiv2][body] POST https://firebasedatabase.googleapis.com/v1beta/projects/business-tabile/locations/asia-southeast1/instances {"name":"projects/811078534407/locations/asia-southeast1/instances/business-tabile-default-rtdb","project":"projects/811078534407","databaseUrl":"https://business-tabile-default-rtdb.asia-southeast1.firebasedatabase.app","type":"DEFAULT_DATABASE","state":"ACTIVE"}
+[info] 
+[info] Firebase Realtime Database Security Rules allow you to define how your data should be
+[info] structured and when your data can be read from and written to.
+[info] 
+[debug] [2023-01-24T14:21:58.092Z] >>> [apiv2][query] GET https://business-tabile-default-rtdb.asia-southeast1.firebasedatabase.app/.settings/rules.json [none]
+[debug] [2023-01-24T14:22:00.185Z] <<< [apiv2][status] GET https://business-tabile-default-rtdb.asia-southeast1.firebasedatabase.app/.settings/rules.json 200
+[debug] [2023-01-24T14:22:00.185Z] <<< [apiv2][body] GET https://business-tabile-default-rtdb.asia-southeast1.firebasedatabase.app/.settings/rules.json [stream]
+[debug] [2023-01-24T14:22:00.601Z] Error: EISDIR: illegal operation on a directory, open 'C:\Users\city\Desktop\BusinessTabileProject\client\public'
+    at Object.openSync (node:fs:585:3)
+    at Object.writeFileSync (node:fs:2153:35)
+    at Object.createFileSync (C:\Users\city\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\ensure\file.js:63:6)
+    at Config.writeProjectFile (C:\Users\city\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:152:12)
+    at writeDBRules (C:\Users\city\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\database.js:33:12)
+    at doSetup (C:\Users\city\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\database.js:123:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async init (C:\Users\city\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:36:9)
+[error] 
+[error] Error: An unexpected error has occurred.
